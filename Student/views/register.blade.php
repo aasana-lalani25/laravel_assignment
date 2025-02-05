@@ -1,11 +1,11 @@
-@extend('welcome')
+@extends('welcome')
 
 @section('content')
 
 <h1> registration </h1>
 <p> Enter Details Infomation </p>
 <form method="POST" action="/submitform">
-    @csrf 
+    @csrf
     <label for="name"> Full Name:</label>
     <input type="text" id="name" name="name" required>
     <br>
@@ -30,5 +30,16 @@
 
     <button type="submit"> Submit </button>
 
-</form
+</form>
+
+@if ($errors->any())
+    <div style="color: red;">
+        <ul>
+            @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+    </div>
+@endif
+
 @endsection

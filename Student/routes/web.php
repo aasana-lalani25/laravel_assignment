@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\studentdemo;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,5 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::post('/submitform',[studentdemo::class, 'submitform']);
-Route::get('/', [studentdemo::class, 'index']);
+Route::post(uri:'/submitform',action:[studentdemo::class,'submitform']);
+
+Route::get(uri:'/',action:[studentdemo::class,'index']);
