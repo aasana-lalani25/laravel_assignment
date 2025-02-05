@@ -1,0 +1,29 @@
+@extend('welcome')
+
+@section('content')
+<h1> Student Details </h1>
+<table border="1", cellpadding="8">
+    <tr>
+        <th> Name: </th>
+        <td>{{$name['name']}}</td>
+    </tr>
+
+    <tr>
+        <th> Email: </th>
+        <td>{{$email['email']}}</td>
+    </tr>
+
+    <tr>
+        <th> Phone no.: </th>
+        <td>{{$phone['phone']}}</td>
+    </tr>
+
+    <tr>
+        <th> Name: </th>
+        <td>{{$courses['courses']}}</td>
+    </tr>
+</table>
+<a href="{{url('/')}}"> Go back to form</a>
+
+@endsection
+
