@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+    background-color:#fff;
+    text-align:center;
+}
+
+header{
+    background:#333;
+    color:#fff;
+    padding:10px 0;
+}
+
+header nav a{
+    color:#fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+form{
+    background:#fff;
+    width:320px;
+    margin:20px auto;
+    padding:10px;
+    border-radius: 5px;
+}
+
+footer{
+    margin-top:20px;
+    background: #333;
+    color:#fff;
+    padding:10px;
+    text-align:center;
+
+
+}
