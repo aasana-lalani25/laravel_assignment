@@ -1,0 +1,11 @@
+Create Web applications for the Hospitality Industry.
+● Create Model HotelBooking.
+● Create a migration file to define the schema for the hotel_bookings table.
+● Attributes: guestName, checkInDate, checkOutDate, roomType
+● Create Controller: HotelBookingController with all method classes.
+Create a new Hotel record, display them in tabular format with the action buttons of edit and
+delete. Also add a new field button on the right side corner to add a new record.
+And on click of delete the record should be deleted and the record should be edited in different
+pages.
+Note: All fields are required fields. Room type should be in select options and date should
+have a date picker.
