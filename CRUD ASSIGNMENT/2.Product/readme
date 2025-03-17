@@ -1,0 +1,11 @@
+Create Web applications for the E-commerce Industry.
+● Create Model Product.
+● Define a migration to create a products table with the necessary fields.
+● Attributes: name, description, price, quantity, Product type
+● Create Controller: ProductController with all method classes.
+Create a new product record, display them in tabular format with an action button of delete and
+edit. Also add a new field button on the right side corner to add a new record.
+And on click of delete the record should be deleted and the record should be edited in different
+pages.
+Note: All fields are required fields. Product type should be in select option fields and price
+should be decimal. Quantity should be only digits.
