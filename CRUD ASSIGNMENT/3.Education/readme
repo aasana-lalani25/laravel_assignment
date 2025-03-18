@@ -1,0 +1,9 @@
+Create Web applications for the Education Industry.
+● Create a login page.
+● Users can login with authenticated database fields.
+● Create a Model called “Course”.
+● Attributes: title, description, instructor, Course duration
+● Create a migration file to define the structure of the courses table.
+● Create Controller: CourseController with all method classes.
+Create a new Course record, display them in tabular format from the database.
+Note: All fields are required fields. Duration should be only in numbers.
