@@ -1,0 +1,11 @@
+Create Web applications for the Real Estate Industry.
+● Create Model PropertyListing.
+● Define a migration to create a property_listings table with the necessary fields.
+● Attributes: address, type (e.g., house, apartment), price, description.
+● Create Controller: PropertyListingController with all method classes.
+Create a new property_listings record, display them in tabular format with an action button of
+delete and edit. Also add a new field button on the right side corner to add a new record.
+And on click of delete the record should be deleted and the record should be edited in different
+pages.
+Note: All fields are required fields. Property type should be in select options and price
+should be decimal.
